@@ -26,40 +26,40 @@ export class MainEquipoTrabajoComponent implements OnInit, AfterViewInit {
 
   teamMembers: TeamMember[] = [
     {
-      name: 'Miembro 1',
+      name: 'Febe Bailey Rebolledo',
       position: 'Posición 1',
       image: 'assets/images/equipo_de_trabajo/imagen1.PNG',
-      description: 'Morbi in libero blandit lectus cursus'
+      description: 'Tutora Inglés Nivel Enseñanza Media y PB'
     },
     {
-      name: 'Miembro 2',
+      name: 'Felipe Ramírez Correa',
       position: 'Posición 2',
       image: 'assets/images/equipo_de_trabajo/imagen2.PNG',
-      description: 'Curabitur molestie dignissim purus'
+      description: 'Tutor Educación Cristiana – Educación Física'
     },
     {
-      name: 'Miembro 3',
+      name: 'Marco Cubillos Herrera',
       position: 'Posición 2',
       image: 'assets/images/equipo_de_trabajo/imagen3.PNG',
-      description: 'Curabitur molestie dignissim purus'
+      description: 'Director'
     },
     {
-      name: 'Miembro 4',
+      name: '⁠Karla Olguín Navarro',
       position: 'Posición 2',
       image: 'assets/images/equipo_de_trabajo/imagen4.PNG',
-      description: 'Curabitur molestie dignissim purus'
+      description: 'Tutora Nivel 3M – Lenguaje Nivel 1M, 2M, 3M – Taller Nivel 2M y 3M'
     },
     {
-      name: 'Miembro 4',
+      name: 'Cristian Vera Muñoz',
       position: 'Posición 2',
       image: 'assets/images/equipo_de_trabajo/imagen5.PNG',
-      description: 'Curabitur molestie dignissim purus'
+      description: 'Tutor Nivel 2M – Matemática Nivel 1M, 2M, 3M – Ciencias Nivel 2M y 3M'
     },
     {
-      name: 'Miembro 5',
+      name: 'Marcela Huenteleo',
       position: 'Posición 2',
       image: 'assets/images/equipo_de_trabajo/imagen6.PNG',
-      description: 'Curabitur molestie dignissim purus'
+      description: 'Tutora Nivel 78 – Lenguaje Nivel 56 y 78 Administrativa e inspectora'
     },
     {
       name: 'Miembro 6',
