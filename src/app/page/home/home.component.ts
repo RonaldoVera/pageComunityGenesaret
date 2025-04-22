@@ -7,6 +7,7 @@ import { MainConocenosComponent } from "../../components/main-conocenos/main-con
 import { MainQuienesSomosComponent } from "../../components/main-quienes-somos/main-quienes-somos.component";
 import { MainEquipoTrabajoComponent } from "../../components/main-equipo-trabajo/main-equipo-trabajo.component";
 import { MainDatosComunidadComponent } from "../../components/main-datos-comunidad/main-datos-comunidad.component";
+import { MainMisionVisionComponent } from '../../components/main-mision-vision/main-mision-vision.component';
 
 @Component({
   selector: 'app-home',
@@ -19,7 +20,8 @@ import { MainDatosComunidadComponent } from "../../components/main-datos-comunid
     MainConocenosComponent,
     MainQuienesSomosComponent,
     MainEquipoTrabajoComponent,
-    MainDatosComunidadComponent
+    MainDatosComunidadComponent,
+    MainMisionVisionComponent
 ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',

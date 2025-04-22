@@ -1,0 +1,218 @@
+
+
+/* section.heading-page h4 {
+  margin-top: 0px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+section.heading-page h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+} */
+
+section.encabezado h1 {
+  text-align: center;
+  line-height: 40px;
+  margin-top: 0px;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+section.encabezado h4 {
+  text-align: center;
+  line-height: 40px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(250,250,250,0.15);
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+
+/*agregado desde la inteligencia artificial*/
+
+
+.cards-section {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 40px;
+  padding: 50px 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 0 auto;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0; /* <-- esquinas superiores redondeadas igual que la card */
+  display: block;
+}
+
+section.imagen-visión {
+  background-image: url("../../../assets/images/vision_genesaret.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 110px;
+  text-align: center;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-bottom: 20px;
+}
+
+section.imagen-mision {
+  background-image: url("../../../assets/images/misión-genesaret.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 110px;
+  text-align: center;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-bottom: 20px;
+}
+
+section.imagen-visión h3 {
+  margin-top: 0px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+section.imagen-mision h3 {
+  margin-top: 0px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+
+.card p {
+  margin: 0 15px 20px;
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+
+
+
+/* Cards para tamaños grandes (desde 1200px en adelante) */
+@media (min-width: 1200px) {
+  .cards-section {
+    justify-content: center;
+  }
+
+  .card {
+    max-width: 450px;
+    padding: 0px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .desface {
+    margin-top: 200px;
+  }
+
+  .desface2 {
+    margin-bottom: 200px;
+  }
+}
+
+/* Para tablets y laptops (entre 768px y 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .cards-section {
+    gap: 40px;
+  }
+
+  .card {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .desface {
+    margin-top: 100px;
+  }
+
+  .desface2 {
+    margin-bottom: 100px;
+  }
+}
+
+/* Para teléfonos (menos de 768px) */
+@media (max-width: 767px) {
+  .cards-section {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 10px;
+  }
+
+  .card {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .desface,
+  .desface2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
